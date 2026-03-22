@@ -236,6 +236,17 @@ Browse and directly test all three MCP primitives:
 | DELETE | `/api/sessions/:id`    | Clear chat session             |
 | GET    | `/api/health`          | Health check                   |
 
+## Documentation
+
+For a deep dive into how everything works, see **[DOCS.md](DOCS.md)** which covers:
+
+- Step-by-step end-to-end flow (what happens when you send a message)
+- What the MCP Server does vs what the MCP Client does
+- The agentic tool-use loop explained
+- MCP vs RAG — when to use which
+- MCP vs Function Calling — how they relate
+- MCP vs LangChain / Agent Frameworks
+
 ## Technology Stack
 
 | Layer     | Technology                          |
